@@ -2,7 +2,7 @@ Day8-2026-7-19-Python-Learning
 
 
 
-\##1. 今天学了什么
+\## 1. 今天学了什么
 
 \-我终于克服了一部分恐惧然后学习了复杂方程（more complex function）
 
@@ -12,13 +12,13 @@ Day8-2026-7-19-Python-Learning
 
 Functions with no argumentsFunctions with no arguments
 
-&#x20;          # Pre-tax pay, based on receiving $15/hour
+&#x20;          #Pre-tax pay, based on receiving $15/hour
 
 &#x20; 	    pay\_pretax = num\_hours \* 15       // 算式1
 
 
 
-&#x20;  	    # After-tax pay, based on being in 12% tax bracket
+&#x20;  	    #After-tax pay, based on being in 12% tax bracket
 
 &#x20;     	    pay\_aftertax = pay\_pretax \* (1 - .12)    //算式2
 
@@ -26,7 +26,7 @@ Functions with no argumentsFunctions with no arguments
 
 
 
-&#x09;    # Calculate pay based on working 40 hours
+&#x09;    #Calculate pay based on working 40 hours
 
 &#x20;          pay\_fulltime = get\_pay(40)
 
@@ -60,15 +60,11 @@ Functions with no argumentsFunctions with no arguments
 
 
 
-\##2. 有什么问
+\## 2. 有什么问题
 
 \-、！我终于搞明白那个练习题咋做了，，，虽然还是有点困难吧，毕竟是刚开始做，正确率80%左右，还是要注意一些语言规范
 
 \-我翻看之前上传的日志的时候才发现一个问题，大概是说最后一行必须以“-”结尾？我没看明白。。。
 
 \-今天先试一下
-
-
-
-
 
