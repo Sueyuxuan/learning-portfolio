@@ -17,21 +17,23 @@ False
 
   * 也可以将变量赋值后比较变量，变量和数值。
   * 一些比较常见的符号和意义：
-| Symbols | Meanings                  |
-| ------- | ------------------------- |
-| ==      | equals                    |
-| !=      | does not equal            |
-| <       | less than                 |
-| <=      | less than or equal to     |
-| >       | greater than              |
-| >=      | greater than or equal to  |
-  * 需要特别注意的是，“=”是赋值而不是等于，“==”才是等于。
-  * ### Conditional Statements（条件语句）
 
-    * 使用条件来修改函数运行的方式。它们检查条件的值，如果条件评估为True，则执行特定的代码块（ 否则，如果条件为 False，则不会运行代码。）。
-    * 最常见的**if**语句。
+|Symbols|Meanings|
+|-|-|
+|==|equals|
+|!=|does not equal|
+|<|less than|
+|<=|less than or equal to|
+|>|greater than|
+|>=|greater than or equal to|
 
-      def evaluate\_temp(temp):
+* 需要特别注意的是，“=”是赋值而不是等于，“==”才是等于。
+* ### Conditional Statements（条件语句）
+
+  * 使用条件来修改函数运行的方式。它们检查条件的值，如果条件评估为True，则执行特定的代码块（ 否则，如果条件为 False，则不会运行代码。）。
+  * 最常见的**if**语句。
+
+    def evaluate\_temp(temp):
 #Set an initial message
 message = "Normal temperature."
 #Update value of message only if temperature greater than 38
@@ -39,12 +41,12 @@ if temp > 38:
 message = "Fever!"
 return message
 
-    * 注意到此处有两级indentation缩进：
+  * 注意到此处有两级indentation缩进：
 
-      * def：后，所属此函数的代码必须缩进。
-      * if：后，只有满足条件才运行的代码，需要再缩进一层（也就是fever那一层）。
+    * def：后，所属此函数的代码必须缩进。
+    * if：后，只有满足条件才运行的代码，需要再缩进一层（也就是fever那一层）。
 
-    \-后续会学到配套语句逻辑：
+  \-后续会学到配套语句逻辑：
 
 *  if ：第一个判断条件
 *  elif ：前面if不成立，再做第二个判断
